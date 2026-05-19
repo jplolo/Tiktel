@@ -4,9 +4,9 @@ import feedparser
 import requests
 
 # tiktok to telegram bot
-BOT_TOKEN = os.environ.get("TELEGRAM_TOKEN")
-CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL")
-TIKTOK_RSS = os.environ.get("TIKTOK_RSS_URL")
+BOT_TOKEN = os.environ.get("270876265:AAHUL5nLj4WvNZyICdjDUQHaIcGVhZ0wl78")
+CHANNEL_ID = os.environ.get("@TikTokJourneyByJplolo")
+TIKTOK_RSS = os.environ.get("https://rss.app/feeds/KVLA6Z9XzoDz5Gu9.xml")
 
 def get_latest_video():
     feed = feedparser.parse(TIKTOK_RSS)
